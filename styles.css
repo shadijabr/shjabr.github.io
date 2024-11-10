@@ -1,0 +1,98 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #fff;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.landing {
+    background: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.landing h2 {
+    margin-bottom: 1rem;
+}
+
+.cta {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background: #f9f9f9;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    width: 30%;
+    text-align: center;
+}
+
+.contact {
+    background: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+footer ul li {
+    margin: 0 1rem;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}

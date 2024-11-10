@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشروع صفحة ويب</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div>
+            <img src="logo.png" style="float:right;" />
+            <h1>خدمات طلابية</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#home" style="color:black">الرئيسية</a></li>
+                <li><a style="color:black" href="https://www.alaqsa.edu.ps/ar/page/2636/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D9%89-%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9">خدماتنا</a></li>
+                <li><a style="color:black" href="https://www.alaqsa.edu.ps/site/MainPage/Contact_Us.aspx">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Landing Section -->
+    <section id="home" class="landing">
+        <h2>مرحبًا بكم في موقعنا</h2>
+        <p>نحن نقدم أفضل الخدمات التي تلبي احتياجاتك.</p>
+        <a href="#services" class="cta">تعرف على المزيد</a>
+    </section>
+
+    <div class="cards" style="text-align:center;">
+        <h2>خدماتنا</h2>
+    </div>
+    <!-- Services Section -->
+    <section id="services" class="cards" style="direction:rtl;">
+
+        <div class="card" style="display:block;">
+            <h3 style="text-align:center;">الخدمة 1</h3>
+            <p>اليونسكو تساعد الأجيال المستقبلية على صون التراث الثقافي غير المادي.</p>
+            <img src="https://alaqsa.edu.ps/site_resources/Related_Links/72.jpg" alt="الخدمة 1">
+        </div>
+        <div class="card" style="display:block;">
+            <h3>الخدمة 2</h3>
+            <p>الإغاثة الإسلامية هي منظمة إنسانية وتنموية، تسترشد بالقيم الإسلامية، وتعمل في فلسطين منذ عام 1998، لتحسين رفاهية الأشخاص الضعفاء، وتقديم المساعدات الطارئة المنقذة للحياة، وتعزيز البيئة التعليمية، والحد من الأثر الإنساني للصراع، وتمكين المجتمعات.</p>
+            <img src="https://alaqsa.edu.ps/site_resources/Related_Links/64.jpg" alt="الخدمة 2">
+        </div>
+        <div class="card" style="display:block;">
+            <h3>الخدمة 3</h3>
+            <p>يعمل برنامج الأمم المتحدة الإنمائي في حوالي 170 دولة وإقليمًا، حيث يساعد في القضاء على الفقر، والحد من عدم المساواة والإقصاء، وبناء القدرة على الصمود حتى تتمكن البلدان من الحفاظ على التقدم.</p>
+            <img src="https://alaqsa.edu.ps/site_resources/Related_Links/2.jpg" style="height:65px;" alt="الخدمة 3">
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <section id="contact" class="contact container" style="direction: rtl; max-width: 600px; margin: auto; padding-top: 20px;">
+        <h2 class="text-center mb-4">اتصل بنا</h2>
+        <form action="submit_form.php" method="POST">
+
+            <div class="form-group">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="أدخل اسمك" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="أدخل بريدك الإلكتروني" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" class="form-control" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">إرسال</button>
+        </form>
+    </section>
+    <div class="mt-5">
+        <h3 class="text-center">موقعنا على الخريطة</h3>
+        <div class="map-container" style="width: 100%; height: 400px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.275589716856!2d34.44613547535863!3d31.50327047117224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14fd7e9c5d3b1d8b%3A0x35b58c81e2125805!2z2KfZhNmF2KrYjCDZgdin2YXZitmCINmI2KfZgti02KjZitipINin2YTYo9mF2YrYqSDYp9mE2YXZh9ip!5e0!3m2!1sar!2sps!4v1698671234567!5m2!1sar!2sps"
+                    width="100%"
+                    height="100%"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 جميع الحقوق محفوظة</p>
+        <ul>
+            <li><a href="mailto:shady481337@gmail.com">البريد الإلكتروني</a></li>
+            <li><a href="tel:+970599527174">الهاتف</a></li>
+            <li><a href="https://www.facebook.com/Sh.Jabr">فيسبوك</a></li>
+            <li><a href="https://x.com/shadipal2/status/617607085942009856">تويتر</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
